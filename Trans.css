@@ -1,0 +1,20 @@
+div{
+    width:100px;
+    height: 100px;
+    background-color: aquamarine;
+    border: solid black;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+div:hover{
+    background-color: brown;
+    font-size: 30px;
+}
+div:active{            /*it is applied when we click and hold*/
+    background-color: blue;
+}
